@@ -20,32 +20,24 @@
                                 <rect key="frame" x="15" y="62" width="360" height="359"/>
                                 <color key="backgroundColor" systemColor="linkColor"/>
                                 <color key="tintColor" systemColor="systemGray6Color"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="LyR-dc-hYk" secondAttribute="height" multiplier="360:359" id="gWl-6j-H7V"/>
-                                </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nA4-9D-RgN">
                                 <rect key="frame" x="15" y="436" width="360" height="359"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                 <color key="tintColor" systemColor="systemGray6Color"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="nA4-9D-RgN" secondAttribute="height" multiplier="360:359" id="BH4-7q-7Yw"/>
-                                </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                         <constraints>
-                            <constraint firstItem="nA4-9D-RgN" firstAttribute="height" secondItem="LyR-dc-hYk" secondAttribute="height" id="BST-Dg-REi"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="nA4-9D-RgN" secondAttribute="bottom" constant="15" id="Ceq-vt-8Zb"/>
-                            <constraint firstItem="nA4-9D-RgN" firstAttribute="width" secondItem="LyR-dc-hYk" secondAttribute="width" id="NOd-7m-boj"/>
-                            <constraint firstItem="LyR-dc-hYk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="PYJ-Kg-8ew"/>
-                            <constraint firstItem="nA4-9D-RgN" firstAttribute="top" secondItem="LyR-dc-hYk" secondAttribute="bottom" constant="15" id="QPJ-9u-K5p"/>
-                            <constraint firstItem="LyR-dc-hYk" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Xwp-PK-D7E"/>
-                            <constraint firstItem="LyR-dc-hYk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="h9f-0g-1R3"/>
-                            <constraint firstItem="nA4-9D-RgN" firstAttribute="leading" secondItem="LyR-dc-hYk" secondAttribute="leading" id="het-oe-6pY"/>
-                            <constraint firstItem="nA4-9D-RgN" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="iwS-Nq-wKH"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LyR-dc-hYk" secondAttribute="trailing" constant="15" id="mf8-o8-UG8"/>
+                            <constraint firstItem="LyR-dc-hYk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="9h5-dB-lBT"/>
+                            <constraint firstItem="nA4-9D-RgN" firstAttribute="height" secondItem="LyR-dc-hYk" secondAttribute="height" id="PNe-gQ-hQT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="nA4-9D-RgN" secondAttribute="bottom" constant="15" id="S4p-e0-jbT"/>
+                            <constraint firstItem="nA4-9D-RgN" firstAttribute="leading" secondItem="LyR-dc-hYk" secondAttribute="leading" id="b28-on-lY9"/>
+                            <constraint firstItem="LyR-dc-hYk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="cV8-eG-E2h"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LyR-dc-hYk" secondAttribute="trailing" constant="15" id="rgB-YY-I6d"/>
+                            <constraint firstItem="nA4-9D-RgN" firstAttribute="width" secondItem="LyR-dc-hYk" secondAttribute="width" id="ue1-H4-cC6"/>
+                            <constraint firstItem="nA4-9D-RgN" firstAttribute="top" secondItem="LyR-dc-hYk" secondAttribute="bottom" constant="15" id="zch-8N-akJ"/>
                         </constraints>
                     </view>
                 </viewController>
